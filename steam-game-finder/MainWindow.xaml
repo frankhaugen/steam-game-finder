@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
         <StackPanel Orientation="Horizontal">
-            <Button Name="ButtonFetchList" Content="Fetch games list" />
-            <Button />
+            <Button Name="ButtonFetchList" Content="Fetch games list" Click="ButtonFetchList_Click" />
+            <Button Name="ButtonCollectDetails" Content="Collect details" Click="ButtonCollectDetails_Click" />
             <Button />
             <Button />
             <Button />
