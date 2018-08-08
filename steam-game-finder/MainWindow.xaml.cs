@@ -22,6 +22,8 @@ namespace steam_game_finder
     /// </summary>
     public partial class MainWindow : Window
     {
+        public DataGrid GamesDetails = new DataGrid();
+
         public MainWindow()
         {
             InitializeComponent();
