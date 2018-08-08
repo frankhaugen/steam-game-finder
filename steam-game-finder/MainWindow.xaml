@@ -16,5 +16,7 @@
             <Button />
         </StackPanel>
         <ProgressBar Name="progressBar" />
+        <TextBlock Name="TextField" />
+        <DataGrid />
     </StackPanel>
 </Window>
